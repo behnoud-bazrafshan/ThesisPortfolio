@@ -8,7 +8,7 @@ import jdatetime
 
 for file_number in range(1, 76):
     start = time.time()
-    # Read effective spread data sets
+    # Read price impact data sets
     spread_file_path = f'C:/Users/behnood/Desktop/'\
         f'price_impact_{file_number}.csv'
     df = pd.read_csv(
