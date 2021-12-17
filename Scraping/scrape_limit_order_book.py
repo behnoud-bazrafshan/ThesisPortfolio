@@ -115,7 +115,7 @@ sample_df = pd.read_excel(
 sample_dict = dict(zip(sample_df.number, sample_df.ticker_id))
 
 # Scrape each stocks' limit order book data and write them to a CSV
-for sample_number in range(74, 76):
+for sample_number in range(1, 76):
     start = time.time()
     all_lob_urls = get_lob_urls(
         ticker_id=str(sample_dict[sample_number]),
