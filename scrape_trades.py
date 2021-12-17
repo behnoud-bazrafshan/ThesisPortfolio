@@ -27,7 +27,7 @@ def get_session():
 
 def scrape_data(urls: list):
     """Use Multithreading for scraping."""
-    with concurrent.futures.ThreadPoolExecutor(max_workers=3) as executor:
+    with concurrent.futures.ThreadPoolExecutor(max_workers=5) as executor:
         executor.map(parse_trades_data, urls)
 
 
@@ -110,7 +110,7 @@ for sample_number in range(1, 76):
     start = time.time()
     all_trade_urls = get_trade_urls(
         ticker_id=str(sample_dict[sample_number]),
-        start_date=20190221,
+        start_date=20150221,
         end_date=20200318
     )
     trades_list = []
