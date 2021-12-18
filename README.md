@@ -1,4 +1,4 @@
-# ThesisPortfolio
+# Thesis Portfolio
 A collection of Python scripts that I used for my thesis.
 
 **Thesis title:** Comparing the impact of the maximum amount of low-frequency and high-frequency liquidity benchmarks on stocks return
