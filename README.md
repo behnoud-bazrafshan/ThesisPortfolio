@@ -6,3 +6,7 @@ Thesis title: Comparing the impact of the maximum amount of low-frequency and hi
 ## Step 1: Scraping trades and limit order book data from Tehran Stock Exchange
 ---
 * Scraped near 300 milion data (including trades and limit order book) from Tehran Stock Exchange website
+## Step 2: Clean and prepare data, then calculate liquidity measures
+---
+* Calculated effective spread
+* Calculated 5-minute price impact
